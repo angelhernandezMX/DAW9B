@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+	<meta charset="utf-8">
+	<title>My bootstrap proyect</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-responsive.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="bower_components/fontawesome/css/all.css" />
+
+
+</head>
+<body>
+	
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+
+				
+				<a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				
+				<div class="collapse nav-collapse">
+					<form action="" class="navbar-search pull-right">
+						<input type="text" class="search-query" placeholder="search..." />
+					</form>
+				
+					<ul class="nav pull-right">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="index.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	
+	
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="span4">
+					<h1>Featured Product</h1>
+					
+					<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dignissimos?.</p>
+					
+					<div class="c-cta">
+						<div class="btn-group">
+							<a href="" class="btn btn-info btn-large">Buy Now</a>
+							<a href="" class="btn btn-large">Free Trial</a>
+						</div>
+					</div>
+					
+					<p><a href="">Read more about the product &raquo;</a></p>
+				</div>
+				
+				<div class="span8">
+					<img src="img/EFICIENCIA-ENERGETICA1-e1551790409692.jpg" alt="Tuts+ Hub" />
+				</div>
+			</div>
+			
+			<hr />
+		</div> 
+	</section>
+	
+	
+	
+	
+	
+	<div class="container">
+
+		<section>
+			<h3>The Company</h3>
+
+			<div class="row">
+				<div class="span8">
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, debitis!.</p>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, accusamus facilis! Adipisci possimus hic aspernatur asperiores facilis, ipsa optio in voluptatibus blanditiis enim, consectetur doloribus nihil fugiat quasi voluptatum minus!</p>
+				</div>
+				
+				<div class="span4">
+					<p class="well well-large lead text-center">This is a great company motto! It will be remembered for years to come.</p>
+				</div>
+			</div>
+		</section>
+		
+		<hr />
+
+		<h3>Testimonials</h3>
+		
+		<div class="carousel slide" id="testimonials">
+			<ol class="carousel-indicators">
+				<li data-target="#testimonials" data-slide-to="0" class="active"></li>
+				<li data-target="#testimonials" data-slide-to="1"></li>
+				<li data-target="#testimonials" data-slide-to="2"></li>
+			</ol>
+		
+			<div class="carousel-inner">
+				<div class="item active">
+					<blockquote>
+						<p>This is testimonial 1</p>
+						<small>John</small>
+					</blockquote>
+				</div>
+
+				<div class="item">
+					<blockquote>
+						<p>This is testimonial 2</p>
+						<small>John</small>
+					</blockquote>
+				</div>
+
+				<div class="item">
+					<blockquote>
+						<p>This is testimonial 3</p>
+						<small>John</small>
+					</blockquote>
+				</div>
+			</div>
+		</div> 
+		
+		<hr />
+		
+		
+		
+	
+		<section>
+			<p class="lead text-center">Wanna get in touch? Email us at <a href="">office@awesomeproduct.com</a>.</p>
+			
+			<hr />
+			
+			<ul class="inline text-center">
+				<li><strong>Follow Us On:</strong></li>
+				<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+				<li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+				<li><a href=""><i class="fab fa-instagram"></i></a></li>
+			</ul>
+			
+			<p class="text-center muted">&copy; Copyright 2013 Company Name</p>
+		</section>
+	</div> 
+	
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/fontawesome/css/all.css"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.carousel').carousel({
+				interval: 5000
+			});
+		});
+	</script>
+
+</body>
+</html>
